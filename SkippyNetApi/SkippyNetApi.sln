@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33130.400
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkippyNetApi", "SkippyNetApi\SkippyNetApi.csproj", "{B9AE390E-4358-42E3-B74C-D8B00B0038CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9AE390E-4358-42E3-B74C-D8B00B0038CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AE390E-4358-42E3-B74C-D8B00B0038CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AE390E-4358-42E3-B74C-D8B00B0038CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AE390E-4358-42E3-B74C-D8B00B0038CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DD27BA1-1A12-470C-AF07-6C0B93F878FB}
+	EndGlobalSection
+EndGlobal
