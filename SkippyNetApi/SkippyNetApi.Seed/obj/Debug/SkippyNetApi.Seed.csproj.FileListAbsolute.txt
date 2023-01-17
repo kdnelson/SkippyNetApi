@@ -1,0 +1,7 @@
+C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi.Seed\bin\Debug\SkippyNetApi.Seed.exe.config
+C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi.Seed\bin\Debug\SkippyNetApi.Seed.exe
+C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi.Seed\bin\Debug\SkippyNetApi.Seed.pdb
+C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi.Seed\obj\Debug\SkippyNetApi.Seed.csproj.AssemblyReference.cache
+C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi.Seed\obj\Debug\SkippyNetApi.Seed.csproj.CoreCompileInputs.cache
+C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi.Seed\obj\Debug\SkippyNetApi.Seed.exe
+C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi.Seed\obj\Debug\SkippyNetApi.Seed.pdb

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2583A0F-C8AF-41D4-98C3-A4A665BA62CD}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>SkippyNetApi.Test</RootNamespace>
+    <AssemblyName>SkippyNetApi.Test</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json.Schema, Version=3.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.Schema.3.0.14\lib\net45\Newtonsoft.Json.Schema.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Unity.Abstractions, Version=5.11.7.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.11.10\lib\net47\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container, Version=5.11.11.0, Culture=neutral, PublicKeyToken=489b6accfaf20ef0, processorArchitecture=MSIL">
+      <HintPath>..\packages\Unity.5.11.10\lib\net47\Unity.Container.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\TestController.cs" />
+    <Compile Include="Dtos\Common\ResponseDto.cs" />
+    <Compile Include="Dtos\Common\TestLogDto.cs" />
+    <Compile Include="Dtos\Request\Work\WorkCreateRequestDto.cs" />
+    <Compile Include="Dtos\Request\Work\WorkDeleteRequestDto.cs" />
+    <Compile Include="Dtos\Request\Work\WorkGetRequestDto.cs" />
+    <Compile Include="Dtos\Request\Work\WorkSearchRequestDto.cs" />
+    <Compile Include="Dtos\Request\Work\WorkUpdateRequestDto.cs" />
+    <Compile Include="Dtos\Response\Work\WorkResponseDto.cs" />
+    <Compile Include="Enums\ApiRequestType.cs" />
+    <Compile Include="Enums\ErrorMessage.cs" />
+    <Compile Include="Enums\ResponseType.cs" />
+    <Compile Include="Enums\TestType.cs" />
+    <Compile Include="Helpers\Common\RequestHelper.cs" />
+    <Compile Include="Helpers\Common\ServiceLocatorHelper.cs" />
+    <Compile Include="Helpers\Common\UrlHelper.cs" />
+    <Compile Include="Helpers\Work\WorkRequestHelper.cs" />
+    <Compile Include="Interfaces\Common\IRequest.cs" />
+    <Compile Include="Interfaces\Common\IRequestHelper.cs" />
+    <Compile Include="Interfaces\Common\IResponseDto.cs" />
+    <Compile Include="Interfaces\Common\IResponseValidationDto.cs" />
+    <Compile Include="Interfaces\Common\ITestController.cs" />
+    <Compile Include="Interfaces\Common\IUrlHelper.cs" />
+    <Compile Include="Interfaces\Work\IWorkCreateFixture.cs" />
+    <Compile Include="Interfaces\Work\IWorkDeleteFixture.cs" />
+    <Compile Include="Interfaces\Work\IWorkGetixture.cs" />
+    <Compile Include="Interfaces\Work\IWorkRequestHelper.cs" />
+    <Compile Include="Interfaces\Work\IWorkSearchFixture.cs" />
+    <Compile Include="Interfaces\Work\IWorkTestController.cs" />
+    <Compile Include="Interfaces\Work\IWorkUpdateFixture.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <Compile Include="Tests\Work\WorkCreateFixture.cs" />
+    <Compile Include="Tests\Work\WorkDeleteFixture.cs" />
+    <Compile Include="Tests\Work\WorkGetFixture.cs" />
+    <Compile Include="Tests\Work\WorkSearchFixture.cs" />
+    <Compile Include="Tests\Work\WorkTestController.cs" />
+    <Compile Include="Tests\Work\WorkUpdateFixture.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

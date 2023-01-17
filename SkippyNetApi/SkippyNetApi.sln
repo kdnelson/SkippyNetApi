@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.33130.400
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkippyNetApi", "SkippyNetApi\SkippyNetApi.csproj", "{B9AE390E-4358-42E3-B74C-D8B00B0038CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SkippyNetApi", "SkippyNetApi\SkippyNetApi.csproj", "{B9AE390E-4358-42E3-B74C-D8B00B0038CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkippyNetApi.Test", "SkippyNetApi.Test\SkippyNetApi.Test.csproj", "{C2583A0F-C8AF-41D4-98C3-A4A665BA62CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkippyNetApi.Seed", "SkippyNetApi.Seed\SkippyNetApi.Seed.csproj", "{0A79F972-E6BD-46A1-8014-7C859D5840C7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{B9AE390E-4358-42E3-B74C-D8B00B0038CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B9AE390E-4358-42E3-B74C-D8B00B0038CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B9AE390E-4358-42E3-B74C-D8B00B0038CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2583A0F-C8AF-41D4-98C3-A4A665BA62CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2583A0F-C8AF-41D4-98C3-A4A665BA62CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2583A0F-C8AF-41D4-98C3-A4A665BA62CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2583A0F-C8AF-41D4-98C3-A4A665BA62CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A79F972-E6BD-46A1-8014-7C859D5840C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A79F972-E6BD-46A1-8014-7C859D5840C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A79F972-E6BD-46A1-8014-7C859D5840C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A79F972-E6BD-46A1-8014-7C859D5840C7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

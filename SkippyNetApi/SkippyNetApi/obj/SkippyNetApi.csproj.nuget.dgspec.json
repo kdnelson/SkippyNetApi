@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\krisd\\GitHub\\SkippyNetApi-REST\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi.csproj": {}
+    "C:\\Users\\krisd\\GitHub\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\krisd\\GitHub\\SkippyNetApi-REST\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi.csproj": {
+    "C:\\Users\\krisd\\GitHub\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\krisd\\GitHub\\SkippyNetApi-REST\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi.csproj",
+        "projectUniqueName": "C:\\Users\\krisd\\GitHub\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi.csproj",
         "projectName": "SkippyNetApi",
-        "projectPath": "C:\\Users\\krisd\\GitHub\\SkippyNetApi-REST\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi.csproj",
+        "projectPath": "C:\\Users\\krisd\\GitHub\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi.csproj",
         "packagesPath": "C:\\Users\\krisd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\krisd\\GitHub\\SkippyNetApi-REST\\SkippyNetApi\\SkippyNetApi\\obj\\",
+        "outputPath": "C:\\Users\\krisd\\GitHub\\SkippyNetApi\\SkippyNetApi\\SkippyNetApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
