@@ -1,17 +1,17 @@
-﻿using SkippyNetApi.Test.Controllers;
+﻿using DryIoc;
+using SkippyNetApi.Test.Controllers;
 using SkippyNetApi.Test.Helpers.Work;
 using SkippyNetApi.Test.Interfaces.Common;
 using SkippyNetApi.Test.Interfaces.Work;
 using SkippyNetApi.Test.Tests.Work;
-using Unity;  // TODO switch to DryIoc
 
 namespace SkippyNetApi.Test.Helpers.Common
 {
     public class ServiceLocatorHelper
     {
-        private static IUnityContainer _container;
+        private static Container _container { get; set; }
 
-        public static IUnityContainer Initialize()
+        public static Container Initialize()
         {
             BuildUnityContainer();
             return _container;
@@ -19,21 +19,21 @@ namespace SkippyNetApi.Test.Helpers.Common
 
         private static void BuildUnityContainer()
         {
-            _container = new UnityContainer();
+            _container = new Container();
 
             // Common
-            _container.RegisterType<ITestController, TestController>();
-            _container.RegisterType<IRequestHelper, RequestHelper>();
-            _container.RegisterType<IUrlHelper, UrlHelper>();
+            _container.Register<ITestController, TestController>();
+            _container.Register<IRequestHelper, RequestHelper>();
+            _container.Register<IUrlHelper, UrlHelper>();
 
             // Work
-            _container.RegisterType<IWorkTestController, WorkTestController>();
-            _container.RegisterType<IWorkRequestHelper, WorkRequestHelper>();
-            _container.RegisterType<IWorkCreateFixture, WorkCreateFixture>();
-            _container.RegisterType<IWorkDeleteFixture, WorkDeleteFixture>();
-            _container.RegisterType<IWorkGetFixture, WorkGetFixture>();
-            _container.RegisterType<IWorkSearchFixture, WorkSearchFixture>();
-            _container.RegisterType<IWorkUpdateFixture, WorkUpdateFixture>();
+            _container.Register<IWorkTestController, WorkTestController>();
+            _container.Register<IWorkRequestHelper, WorkRequestHelper>();
+            _container.Register<IWorkCreateFixture, WorkCreateFixture>();
+            _container.Register<IWorkDeleteFixture, WorkDeleteFixture>();
+            _container.Register<IWorkGetFixture, WorkGetFixture>();
+            _container.Register<IWorkSearchFixture, WorkSearchFixture>();
+            _container.Register<IWorkUpdateFixture, WorkUpdateFixture>();
         }
 
         public static T Resolve<T>()

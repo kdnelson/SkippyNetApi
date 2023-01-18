@@ -27,6 +27,7 @@ C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\bin\Debug\netcoreap
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\bin\Debug\netcoreapp3.1\SkippyNetApi.runtimeconfig.dev.json
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\bin\Debug\netcoreapp3.1\SkippyNetApi.dll
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\bin\Debug\netcoreapp3.1\SkippyNetApi.pdb
+C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\bin\Debug\netcoreapp3.1\DryIoc.dll
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\SkippyNetApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\SkippyNetApi.AssemblyInfoInputs.cache
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\SkippyNetApi.AssemblyInfo.cs
@@ -36,6 +37,7 @@ C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreap
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\staticwebassets\SkippyNetApi.StaticWebAssets.xml
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\scopedcss\bundle\SkippyNetApi.styles.css
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\SkippyNetApi.RazorTargetAssemblyInfo.cache
+C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\SkippyNetApi.csproj.CopyComplete
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\SkippyNetApi.dll
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\SkippyNetApi.pdb
 C:\Users\krisd\GitHub\SkippyNetApi\SkippyNetApi\SkippyNetApi\obj\Debug\netcoreapp3.1\SkippyNetApi.genruntimeconfig.cache

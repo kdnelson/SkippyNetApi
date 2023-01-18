@@ -31,6 +31,7 @@
     ".NETCoreApp,Version=v3.1": {
       "SkippyNetApi/1.0.0": {
         "dependencies": {
+          "DryIoc.dll": "5.3.1",
           "Microsoft.AspNetCore.Hosting": "2.2.7",
           "Microsoft.AspNetCore.Antiforgery": "3.1.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "3.1.0.0",
@@ -320,6 +321,17 @@
         },
         "compile": {
           "SkippyNetApi.dll": {}
+        }
+      },
+      "DryIoc.dll/5.3.1": {
+        "runtime": {
+          "lib/netstandard2.1/DryIoc.dll": {
+            "assemblyVersion": "5.3.1.0",
+            "fileVersion": "5.3.1.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/DryIoc.dll": {}
         }
       },
       "Microsoft.AspNetCore.Hosting/2.2.7": {
@@ -2173,6 +2185,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "DryIoc.dll/5.3.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-E3zclUh2CIBks1t2uBD1k18pyGFJ1YSKCrbCDbB7qCdl2RAB+k68AyDpjeplhF1ot2XPV82AgyCWBXMf0ggL1g==",
+      "path": "dryioc.dll/5.3.1",
+      "hashPath": "dryioc.dll.5.3.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Hosting/2.2.7": {
       "type": "package",

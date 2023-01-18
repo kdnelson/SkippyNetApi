@@ -37,7 +37,6 @@ namespace SkippyNetApi
 
             // Register IOCs
             //
-
             // Common
             //
             services.AddScoped<IResponseDto, ResponseDto>();
